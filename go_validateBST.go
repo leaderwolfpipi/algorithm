@@ -24,4 +24,4 @@ func validate(node *TreeNode, min int, max int) bool {
 
     // recursive call
     return validate(node.Left, min, node.Val) && validate(node.Right, node.Val, max)
-}s
+}
